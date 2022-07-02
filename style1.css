@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow : hidden;
+}
+
+li {
+  float : left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    padding: 14px 16px;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+/* Top left text */
+.top-left {
+    position: absolute;
+    font-size: 200%;
+    top: 200px;
+    left: 100px;
+}
+.button {
+    background-color: #040fa0;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
